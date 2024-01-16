@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>responsive navbar</title>
+  </head>
+  <body>
+    <header class="headear">
+      <nav class="nav">
+        <div id="logo">
+        <p><i class="fas fa-hearst"></i><img src="logo.jpeg" class="logo">Welcome to Bihar</p>
+        </div>
+          <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="nav__link hide">
+          <a href="#">home</a>
+          <a href="about.html">about</a>
+          <a href="contact.html">contact</a>
+          <a href="#">blog</a>
+        </div>
+      </nav>
+      </header>
+      <!-----------------------------mainpage------------------------------>
+      <section>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="video-container">
+                <video autoplay loop muted>
+                  <source src="BB_915be904-7a71-48ce-9d63-3af7e9608779_preview.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="video-container">
+                <video autoplay loop muted>
+                  <source src="istock-930114948_preview.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="video-container">
+                <video autoplay loop muted>
+                  <source src="BB_5d621f22-f1a5-4791-9821-4411216bf02b_preview.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    <!---------------------------footer-------------------->
+    <footer>
+      <div class="container">
+        <h5>&copy; 2023 Your Aanchal. All rights reserved.</h5>
+      </div>
+    </footer>
+    
+  </body>
+
+  <script src="script.js"></script>
+  
+</html>
